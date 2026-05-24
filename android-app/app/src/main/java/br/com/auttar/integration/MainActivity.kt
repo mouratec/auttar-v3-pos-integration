@@ -141,35 +141,28 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun observeTransactionResult() {
+        // Uso de lifecycleScope.launch sem repeatOnLifecycle para garantir a coleta
+        // mesmo quando a MainActivity estiver em background (coberta pela TransactionActivity)
         lifecycleScope.launch {
-            repeatOnLifecycle(Lifecycle.State.STARTED) {
-                auttarSDK.transactionStateFlow.collect { state ->
-                    if (state is AuttarTransactionState.Done) {
-                        val result = state.result
+            auttarSDK.transactionStateFlow.collect { state ->
+                if (state is AuttarTransactionState.Done) {
+                    val result = state.result
 
-                        AuttarEventController.endTransactionFlow()
+                    // Sinaliza para fechar a TransactionActivity
+                    AuttarEventController.endTransactionFlow()
 
-                        runOnUiThread {
-                            if (result.returnCode == "0" || result.returnCode == "00") {
-                                // CONFIRMAÇÃO EXPLICITA DA APROVAÇÃO
-                                Log.d("MAIN", "Transação Confirmada com Sucesso. NSU: ${result.nsuCTF}")
-                                binding.txtStatus.text = "✅ TRANSAÇÃO APROVADA\nNSU: ${result.nsuCTF}\nAutorização: ${result.authorizedCode}"
-                                Toast.makeText(this@MainActivity, "Venda Aprovada e Confirmada!", Toast.LENGTH_LONG).show()
-
-                                // Caso o SDK Auttar V3 exija comando direto para confirmar o bloco TEF:
-                                try {
-                                    // auttarSDK.confirm() // Descomente caso a máquina não imprima o comprovante sozinha
-                                } catch (e: Exception) { }
-
-                            } else {
-                                // FALHA OU CANCELAMENTO
-                                binding.txtStatus.text = "❌ FALHA NA TRANSAÇÃO\nMotivo: ${result.display}"
-                                android.app.AlertDialog.Builder(this@MainActivity)
-                                    .setTitle("Transação Finalizada")
-                                    .setMessage("Status: ${result.display}")
-                                    .setPositiveButton("OK", null)
-                                    .show()
-                            }
+                    runOnUiThread {
+                        if (result.returnCode == "0" || result.returnCode == "00") {
+                            Log.d("MAIN", "Transação Confirmada com Sucesso. NSU: ${result.nsuCTF}")
+                            binding.txtStatus.text = "✅ TRANSAÇÃO APROVADA\nNSU: ${result.nsuCTF}\nAutorização: ${result.authorizedCode}"
+                            Toast.makeText(this@MainActivity, "Venda Aprovada e Confirmada!", Toast.LENGTH_LONG).show()
+                        } else {
+                            binding.txtStatus.text = "❌ FALHA NA TRANSAÇÃO\nMotivo: ${result.display}"
+                            android.app.AlertDialog.Builder(this@MainActivity)
+                                .setTitle("Transação Finalizada")
+                                .setMessage("Status: ${result.display}")
+                                .setPositiveButton("OK", null)
+                                .show()
                         }
                     }
                 }

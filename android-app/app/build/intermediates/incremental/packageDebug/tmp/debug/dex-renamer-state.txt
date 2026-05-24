@@ -1,4 +1,4 @@
-#Sun May 24 19:59:18 BRT 2026
+#Sun May 24 20:15:00 BRT 2026
 base.0=C\:\\DEV\\V3\\auttar-v3-pos-integration\\auttar-v3-pos-integration\\android-app\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\DEV\\V3\\auttar-v3-pos-integration\\auttar-v3-pos-integration\\android-app\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\DEV\\V3\\auttar-v3-pos-integration\\auttar-v3-pos-integration\\android-app\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex

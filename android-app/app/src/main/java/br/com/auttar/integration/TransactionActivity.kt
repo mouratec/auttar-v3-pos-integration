@@ -47,7 +47,7 @@ class TransactionActivity : AppCompatActivity() {
 
     private fun observeEvents() {
         lifecycleScope.launch {
-            repeatOnLifecycle(Lifecycle.State.RESUMED) {
+            repeatOnLifecycle(Lifecycle.State.STARTED) {
                 AuttarEventController.events.collect { event ->
                     when (event) {
                         is AuttarUIEvent.ShowMessage -> {
