@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_pix.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_pix.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\layout_activity_transaction.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\layout\\activity_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_bg_btn_white_border_red.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\bg_btn_white_border_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_credit_card.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_credit_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_circle_green.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\circle_green.xml"
+    },
+    {
+        "merged": "br.com.auttar.integration.app-debug-4:/layout_activity_main.xml.flat",
+        "source": "br.com.auttar.integration.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_shape_bg_circle.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\shape_bg_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\layout_dialog_transaction.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\layout\\dialog_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\layout_top_read_card_activity.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\layout\\top_read_card_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\layout_dialog_receipt.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\layout\\dialog_receipt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_build.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_build.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\anim_float_card.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\anim\\float_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_bg_btn_white_border_dark.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\bg_btn_white_border_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_error.png.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_error.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_pin.png.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_pin.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_card_vector.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_card_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_keyboard.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\anim_slide_down_exit.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\anim\\slide_down_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_contactless_card.png.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_contactless_card.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_check_circle.png.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_check_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_success_vector.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_success_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_bg_btn_red_light.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\bg_btn_red_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\anim_pulse.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\anim\\pulse.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_pin_vector.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_pin_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_shape_pulse_ring.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\shape_pulse_ring.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\anim_slide_up_enter.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\anim\\slide_up_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_error_vector.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_error_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-debug-4:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\drawable\\ic_close.xml"
+    }
+]

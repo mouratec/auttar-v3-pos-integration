@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-mergeDebugResources-3:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-mergeDebugResources-3:\\layout\\dialog_receipt.xml",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\layout\\dialog_receipt.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-mergeDebugResources-3:\\layout\\dialog_transaction.xml",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\layout\\dialog_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-mergeDebugResources-3:\\layout\\activity_transaction.xml",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\layout\\activity_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-mergeDebugResources-3:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-mergeDebugResources-3:\\layout\\top_read_card_activity.xml",
+        "source": "C:\\Users\\Gabriel\\.gradle\\daemon\\8.7\\br.com.auttar.integration.app-main-6:\\layout\\top_read_card_activity.xml"
+    },
+    {
+        "merged": "br.com.auttar.integration.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "br.com.auttar.integration.app-main-6:/layout/activity_main.xml"
+    }
+]

@@ -6,4 +6,10 @@
         <item name="colorPrimaryVariant">#b71c1c</item>
         <item name="colorOnPrimary">#ffffff</item>
     </style>
+
+    <style name="Theme.AuttarV3Integration.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#d32f2f</item>
+        <item name="colorPrimaryVariant">#b71c1c</item>
+        <item name="colorOnPrimary">#ffffff</item>
+    </style>
 </resources>

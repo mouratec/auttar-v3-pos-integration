@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Ícone de Status (Cartão, Sucesso, Erro) -->
+    <ImageView
+        android:id="@+id/imgStatus"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_credit_card" />
+
+    <!-- Mensagem Principal (Ex: "Aproxime ou Insira") -->
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aguardando Cartão..."
+        android:textColor="#333333"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <!-- Mensagem Secundária (Ex: "Valor: R$ 10,00") -->
+    <TextView
+        android:id="@+id/txtAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="R$ 0,00"
+        android:textColor="#666666"
+        android:textSize="18sp" />
+
+    <!-- Campo de PIN (Oculto por padrão) -->
+    <TextView
+        android:id="@+id/txtPinLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Digite sua senha no terminal"
+        android:textColor="#E2001A"
+        android:visibility="gone"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:indeterminate="true"
+        android:visibility="visible" />
+
+    <!-- Botão de Cancelar (Apenas se permitido pelo fluxo) -->
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="CANCELAR"
+        android:background="@drawable/bg_btn_red_light"
+        android:textColor="#C50000"
+        android:textStyle="bold" />
+
+</LinearLayout>

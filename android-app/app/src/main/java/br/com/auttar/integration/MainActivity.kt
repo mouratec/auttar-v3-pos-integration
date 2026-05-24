@@ -12,7 +12,11 @@ import br.com.auttar.integration.databinding.ActivityMainBinding
 import br.com.auttar.sdk.Auttar
 import br.com.auttar.sdk.AuttarTransactionState
 import br.com.auttar.sdk.common.transaction.model.type.TypeCreditTransaction
+import br.com.auttar.sdk.common.transaction.model.type.TypeDebitTransaction
+import br.com.auttar.sdk.common.transaction.model.type.TypeInitializeTransaction
 import br.com.auttar.sdk.transaction.model.data.CreditData
+import br.com.auttar.sdk.transaction.model.data.DebitData
+import br.com.auttar.sdk.transaction.model.data.InitializeData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.math.BigDecimal
@@ -29,24 +33,109 @@ class MainActivity : AppCompatActivity() {
 
         observeTransactionResult()
 
+        // --- PAGAMENTOS ---
         binding.btnCredit.setOnClickListener {
-            startTransactionFlow(10.50)
+            val amount = getAmountFromInput()
+            startPayment(CreditData(amount, TypeCreditTransaction.CREDITO), "R$ $amount")
+        }
+
+        binding.btnPayDebit.setOnClickListener {
+            val amount = getAmountFromInput()
+            startPayment(DebitData(amount, TypeDebitTransaction.DEBITO), "R$ $amount")
+        }
+
+        binding.btnPayCreditInstallments.setOnClickListener {
+            val amount = getAmountFromInput()
+            // Em caso de erro de referência no REDITO/CREDITO, o padrão sênior é validar o enum. 
+            // O SDK V3 comumente utiliza CREDITO_PARCELADO_SEM_JUROS.
+            startPayment(CreditData(amount, TypeCreditTransaction.CREDITO_PARCELADO_SEM_JUROS), "R$ $amount (Parc. Loja)")
+        }
+
+        binding.btnPayCreditInstallmentsAdm.setOnClickListener {
+            val amount = getAmountFromInput()
+            startPayment(CreditData(amount, TypeCreditTransaction.CREDITO_PARCELADO_COM_JUROS), "R$ $amount (Parc. ADM)")
+        }
+
+        binding.btnPayPix.setOnClickListener {
+            startAdministrativeFlow()
+        }
+
+        // --- DIGITADAS ---
+        binding.btnPayCreditTyped.setOnClickListener {
+            val amount = getAmountFromInput()
+            startPayment(CreditData(amount, TypeCreditTransaction.CREDITO_DIGITADO), "R$ $amount (Digitado)")
+        }
+
+        binding.btnPayCreditInstallmentsTyped.setOnClickListener {
+            val amount = getAmountFromInput()
+            startPayment(CreditData(amount, TypeCreditTransaction.CREDITO_DIGITADO_PARCELADO_SEM_JUROS), "R$ $amount (Parc. Loja Digitado)")
+        }
+
+        binding.btnPayCreditInstallmentsAdmTyped.setOnClickListener {
+            val amount = getAmountFromInput()
+            startPayment(CreditData(amount, TypeCreditTransaction.CREDITO_DIGITADO_PARCELADO_COM_JUROS), "R$ $amount (Parc. ADM Digitado)")
+        }
+
+        // --- CONFIGURAÇÃO E MENU ---
+        binding.btnAdminMenu.setOnClickListener {
+            startAdministrativeFlow()
+        }
+
+        binding.btnConfigHardware.setOnClickListener {
+            startAdministrativeFlow()
+        }
+
+        binding.btnCancelTransaction.setOnClickListener {
+            startAdministrativeFlow()
         }
     }
 
-    private fun startTransactionFlow(amount: Double) {
+    private fun getAmountFromInput(): BigDecimal {
+        val text = binding.etAmount.text.toString().trim().replace(",", ".")
+        return try {
+            if (text.isBlank()) BigDecimal.ZERO else BigDecimal(text)
+        } catch (e: Exception) {
+            BigDecimal.ZERO
+        }
+    }
+
+    private fun startPayment(data: br.com.auttar.sdk.common.transaction.model.DefaultData<*>, displayAmount: String) {
+        // Se o valor for zero, informamos que o SDK solicitará o valor no pinpad
+        val finalDisplay = if (displayAmount.contains("0.00") || displayAmount.contains("0,00")) 
+            "Aguardando valor no dispositivo..." 
+        else 
+            displayAmount
+
         val intent = Intent(this, TransactionActivity::class.java).apply {
-            putExtra("AMOUNT", "R$ %.2f".format(amount))
+            putExtra("AMOUNT", finalDisplay)
         }
         startActivity(intent)
 
         lifecycleScope.launch(Dispatchers.IO) {
             try {
                 auttarSDK.initTransaction()
-                val creditData = CreditData(BigDecimal.valueOf(amount), TypeCreditTransaction.CREDITO)
-                auttarSDK.paymentTransaction(creditData)
+                auttarSDK.paymentTransaction(data)
             } catch (e: Exception) {
-                Log.e("MAIN", "Erro Crítico ao iniciar transação: ${e.message}")
+                Log.e("MAIN", "Erro ao iniciar pagamento: ${e.message}")
+            }
+        }
+    }
+
+    private fun startAdministrativeFlow() {
+        val intent = Intent(this, TransactionActivity::class.java).apply {
+            putExtra("AMOUNT", "OPERAÇÃO ADMINISTRATIVA")
+        }
+        startActivity(intent)
+
+        lifecycleScope.launch(Dispatchers.IO) {
+            try {
+                auttarSDK.initTransaction()
+                // Correção Senior: administrativeTransaction requer um parâmetro de dados (DefaultData).
+                // InitializeData com TypeInitializeTransaction.INICIO_DIA é o padrão para o Menu Administrativo.
+                val adminData = InitializeData(TypeInitializeTransaction.INICIO_DIA)
+                auttarSDK.administrativeTransaction(adminData)
+            } catch (e: Exception) {
+                Log.e("MAIN", "Erro ao iniciar fluxo administrativo: ${e.message}")
             }
         }
     }
