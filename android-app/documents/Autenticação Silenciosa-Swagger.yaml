@@ -1,0 +1,212 @@
+openapi: 3.0.0
+paths:
+  /tef-embarcado/oauth/token:
+    post:
+      summary: ''
+      description: Autenticação no SSO SSO Getnet/PagoNxt
+      tags:
+        - SSO
+      security:
+        - basicAuth: []
+      requestBody:
+        required: true
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                grant_type:
+                  type: string
+                  example: client_credentials
+                  description: Grant type
+              required:
+              - grant_type      
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SSOResponseDto'
+        '401':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiSecurityErrorResponseDto'
+        '403':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiSecurityErrorResponseDto'
+        '500':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiResponseDto'
+  /tef-embarcado/top-auth-adp/app-token:
+    post:
+      summary: ''
+      description: Validação do token, validação do contrato e retorno do app token
+      tags:
+        - Tap-on-Phone
+      parameters: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ClientRequestDto'
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiAppTokenResponseDto'
+        '401':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiSecurityErrorResponseDto'
+        '403':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiSecurityErrorResponseDto'
+        '500':
+          description: ''
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ApiResponseDto'
+info:
+  title: Tap-on-Phone
+  description: Integração para serviços que implementam o recurso de Tap-on-Phone
+  version: 1.0.0
+  contact: {}
+tags:
+  - name: SSO
+    description: 
+      'Recursos responsáveis pela autenticação no SSO Getnet/PagoNxt'
+  - name: Tap-on-Phone
+    description: 
+      'Recursos responsáveis pela validação da correspondência entre o aplicativo e o cliente, e devolução dos dados de acesso'
+
+servers: 
+  - url: 'https://api.auttar.com.br/v1/'
+components:
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+    bearerAuth:
+      scheme: bearer
+      bearerFormat: JWT
+      type: http
+  schemas:
+    SSOResponseDto:
+      type: object
+      properties:
+        access_token:
+          type: string
+          example: Message
+          description: oAuth Access Token
+        expires_in:
+          type: number
+          example: Expiration
+        token_type:
+          type: string
+          example: bearer
+          description: Token type
+        scope:
+          type: string
+          example: tap-on-phone
+          description: Token scope
+      required:
+        - httpStatusCode
+        - code
+        - message
+        - details
+    ApiResponseDto:
+      type: object
+      properties:
+        httpStatusCode:
+          type: number
+          example: Status code
+          description: '200'
+        code:
+          type: number
+          example: Response code
+          description: '1'
+        message:
+          type: string
+          example: Message
+          description: Internal Server Error
+        details:
+          type: object
+          description: Response details
+      required:
+        - httpStatusCode
+        - code
+        - message
+        - details
+    ApiSecurityErrorResponseDto:
+      type: object
+      properties:
+        httpStatusCode:
+          type: number
+          example: Status code
+          description: '200'
+      required:
+        - httpStatusCode
+    ClientRequestDto:
+      type: object
+      properties:
+        document:
+          type: string
+          description: Document
+        package_name:
+          type: string
+          description: Package name
+      required:
+        - document
+        - package_name
+    AppTokenResponseDto:
+      type: object
+      properties:
+        app-token:
+          type: string
+          description: Application token
+      required:
+        - app-token
+    ApiAppTokenResponseDto:
+      type: object
+      properties:
+        httpStatusCode:
+          type: number
+          example: Status code
+          description: '200'
+        code:
+          type: number
+          example: Response code
+          description: '1'
+        message:
+          type: string
+          example: Message
+          description: Internal Server Error
+        details:
+          description: Response details
+          allOf:
+            - $ref: '#/components/schemas/AppTokenResponseDto'
+      required:
+        - httpStatusCode
+        - code
+        - message
+        - details
+security:
+  - bearerAuth: []

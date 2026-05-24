@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E2001A"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="36dp"
+        android:paddingBottom="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="auttar"
+            android:textColor="#ffffff"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.2"
+            android:text="PONTO DE VENDA"
+            android:textColor="#ffffff"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="SDK V3 - 4.14.1"
+            android:textColor="#ccffffff"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/ic_settings"
+                    app:tint="#1c3d5a"
+                    android:layout_marginEnd="6dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONFIGURAÇÃO"
+                    android:textColor="#1c3d5a"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.05" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnConfigHardware"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Configurar Dispositivo"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:gravity="center_vertical|start"
+                android:paddingStart="16dp"
+                android:drawableStart="@drawable/ic_settings"
+                android:drawablePadding="16dp"
+                android:background="@drawable/bg_btn_white_border_dark"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnAdminMenu"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Menu Administrativo"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:gravity="center_vertical|start"
+                android:paddingStart="16dp"
+                android:drawableStart="@drawable/ic_build"
+                android:drawablePadding="16dp"
+                android:background="@drawable/bg_btn_white_border_dark"
+                android:layout_marginBottom="24dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PAGAMENTOS"
+                    android:textColor="#1c3d5a"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.05" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="12dp"
+                    android:background="#dddddd" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCredit"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Crédito à Vista"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:gravity="center_vertical|start"
+                android:paddingStart="16dp"
+                android:drawableStart="@drawable/ic_credit_card"
+                android:drawablePadding="16dp"
+                android:background="@drawable/bg_btn_white_border_red"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPayDebit"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Débito"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:gravity="center_vertical|start"
+                android:paddingStart="16dp"
+                android:drawableStart="@drawable/ic_credit_card"
+                android:drawablePadding="16dp"
+                android:background="@drawable/bg_btn_white_border_red"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPayCreditInstallments"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Crédito Parc. Loja (s/ juros)"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:gravity="center_vertical|start"
+                android:paddingStart="16dp"
+                android:drawableStart="@drawable/ic_calendar"
+                android:drawablePadding="16dp"
+                android:background="@drawable/bg_btn_white_border_red"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPayCreditInstallmentsAdm"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Crédito Parc. ADM (c/ juros)"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:gravity="center_vertical|start"
+                android:paddingStart="16dp"
+                android:drawableStart="@drawable/ic_calendar"
+                android:drawablePadding="16dp"
+                android:background="@drawable/bg_btn_white_border_red"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPayPix"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="PIX"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:gravity="center_vertical|start"
+                android:paddingStart="16dp"
+                android:drawableStart="@drawable/ic_pix"
+                android:drawablePadding="16dp"
+                android:background="@drawable/bg_btn_white_border_red"
+                android:layout_marginBottom="24dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DIGITADAS"
+                    android:textColor="#1c3d5a"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.05" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="12dp"
+                    android:background="#dddddd" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPayCreditTyped"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Crédito à Vista Digitado"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:gravity="center_vertical|start"
+                android:paddingStart="16dp"
+                android:drawableStart="@drawable/ic_keyboard"
+                android:drawablePadding="16dp"
+                android:background="@drawable/bg_btn_white_border_red"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPayCreditInstallmentsTyped"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Crédito Parc. Loja Digitado"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:gravity="center_vertical|start"
+                android:paddingStart="16dp"
+                android:drawableStart="@drawable/ic_keyboard"
+                android:drawablePadding="16dp"
+                android:background="@drawable/bg_btn_white_border_red"
+                android:layout_marginBottom="8dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPayCreditInstallmentsAdmTyped"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Crédito Parc. ADM Digitado"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:gravity="center_vertical|start"
+                android:paddingStart="16dp"
+                android:drawableStart="@drawable/ic_keyboard"
+                android:drawablePadding="16dp"
+                android:background="@drawable/bg_btn_white_border_red"
+                android:layout_marginBottom="24dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CANCELAMENTO"
+                    android:textColor="#1c3d5a"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.05" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginStart="12dp"
+                    android:background="#dddddd" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCancelTransaction"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="Cancelamento Genérico"
+                android:textColor="#C50000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:gravity="center_vertical|start"
+                android:paddingStart="16dp"
+                android:drawableStart="@drawable/ic_close"
+                android:drawablePadding="16dp"
+                android:background="@drawable/bg_btn_red_light"
+                android:layout_marginBottom="24dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aguardando operação..."
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="#1C3D5A"
+        android:elevation="4dp"/>
+
+</LinearLayout>

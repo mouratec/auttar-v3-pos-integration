@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mapaTeclado tipo="TecladoPC" layout="Teclado CTF_CLIENT">
+
+    <tecla
+            codigo="8"
+            rotuloNumerico="BS"
+            rotuloAlfaNumerico="BS"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="BS"
+            codigoNumerico="BS"/>
+
+    <tecla
+            codigo="33"
+            rotuloNumerico="!"
+            rotuloAlfaNumerico="!"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="!"
+            codigoNumerico="!"/>
+
+    <tecla
+            codigo="35"
+            rotuloNumerico="#"
+            rotuloAlfaNumerico="#"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="#"
+            codigoNumerico="#"/>
+
+    <tecla
+            codigo="36"
+            rotuloNumerico="$"
+            rotuloAlfaNumerico="$"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="$"
+            codigoNumerico="$"/>
+
+    <tecla
+            codigo="37"
+            rotuloNumerico="%"
+            rotuloAlfaNumerico="%"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="%"
+            codigoNumerico="%"/>
+
+    <tecla
+            codigo="38"
+            rotuloNumerico="&amp;"
+            rotuloAlfaNumerico="&amp;"
+            finalizadorNumerico="true"
+            finalizadorAlfaNumerico="true"
+            codigoAlfaNumerico="&amp;"
+            codigoNumerico="&amp;"/>
+
+    <tecla
+            codigo="40"
+            rotuloNumerico="PAGE_DOWN"
+            rotuloAlfaNumerico="PAGE_DOWN"
+            finalizadorNumerico="true"
+            finalizadorAlfaNumerico="true"
+            codigoAlfaNumerico="PAGE_DOWN"
+            codigoNumerico="PAGE_DOWN"/>
+
+    <tecla
+            codigo="42"
+            rotuloNumerico="*"
+            rotuloAlfaNumerico="*"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="*"
+            codigoNumerico="*"/>
+
+    <tecla
+            codigo="43"
+            rotuloNumerico="+"
+            rotuloAlfaNumerico="+"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="+"
+            codigoNumerico="+"/>
+
+    <tecla
+            codigo="47"
+            rotuloNumerico="/"
+            rotuloAlfaNumerico="/"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="/"
+            codigoNumerico="/"/>
+
+    <tecla
+            codigo="45"
+            rotuloNumerico="-"
+            rotuloAlfaNumerico="-"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="-"
+            codigoNumerico="-"/>
+    <tecla
+            codigo="46"
+            rotuloNumerico="."
+            rotuloAlfaNumerico="."
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="."
+            codigoNumerico="."/>
+
+    <tecla
+            codigo="558"
+            rotuloNumerico="."
+            rotuloAlfaNumerico="."
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="."
+            codigoNumerico="."/>
+
+    <tecla
+            codigo="10"
+            rotuloNumerico="ENTRA"
+            rotuloAlfaNumerico="ENTRA"
+            finalizadorNumerico="true"
+            finalizadorAlfaNumerico="true"
+            codigoAlfaNumerico="ENTRA"
+            codigoNumerico="ENTRA"/>
+
+    <tecla
+            codigo="27"
+            rotuloNumerico="VOLTA"
+            rotuloAlfaNumerico="VOLTA"
+            finalizadorNumerico="true"
+            finalizadorAlfaNumerico="true"
+            codigoAlfaNumerico="VOLTA"
+            codigoNumerico="VOLTA"/>
+
+    <tecla
+            codigo="32"
+            rotuloNumerico=" "
+            rotuloAlfaNumerico=" "
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico=" "
+            codigoNumerico=" "/>
+
+    <tecla
+            codigo="34"
+            rotuloNumerico="&quot;"
+            rotuloAlfaNumerico="&quot;"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="&quot;"
+            codigoNumerico="&quot;"/>
+
+    <tecla
+            codigo="549"
+            rotuloNumerico="TECLA_ESQUERDA"
+            rotuloAlfaNumerico="TECLA_ESQUERDA"
+            finalizadorNumerico="true"
+            finalizadorAlfaNumerico="true"
+            codigoAlfaNumerico="TECLA_ESQUERDA"
+            codigoNumerico="TECLA_ESQUERDA"/>
+
+    <tecla
+            codigo="551"
+            rotuloNumerico="TECLA_DIREITA"
+            rotuloAlfaNumerico="TECLA_DIREITA"
+            finalizadorNumerico="true"
+            finalizadorAlfaNumerico="true"
+            codigoAlfaNumerico="TECLA_DIREITA"
+            codigoNumerico="TECLA_DIREITA"/>
+
+    <tecla
+            codigo="48"
+            rotuloNumerico="0"
+            rotuloAlfaNumerico="0"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="0"
+            codigoNumerico="0"/>
+
+    <tecla
+            codigo="48"
+            rotuloNumerico="00"
+            rotuloAlfaNumerico="00"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="0"
+            codigoNumerico="0"/>
+
+    <tecla
+            codigo="44"
+            rotuloNumerico=","
+            rotuloAlfaNumerico=","
+            finalizadorNumerico="true"
+            finalizadorAlfaNumerico="true"
+            codigoAlfaNumerico=","
+            codigoNumerico=","/>
+
+    <tecla
+            codigo="49"
+            rotuloNumerico="1"
+            rotuloAlfaNumerico="1"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="1"
+            codigoNumerico="1"/>
+
+    <tecla
+            codigo="50"
+            rotuloNumerico="2"
+            rotuloAlfaNumerico="2"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="2"
+            codigoNumerico="2"/>
+
+    <tecla
+            codigo="51"
+            rotuloNumerico="3"
+            rotuloAlfaNumerico="3"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="3"
+            codigoNumerico="3"/>
+
+    <tecla
+            codigo="52"
+            rotuloNumerico="4"
+            rotuloAlfaNumerico="4"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="4"
+            codigoNumerico="4"/>
+
+    <tecla
+            codigo="53"
+            rotuloNumerico="5"
+            rotuloAlfaNumerico="5"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="5"
+            codigoNumerico="5"/>
+
+    <tecla
+            codigo="54"
+            rotuloNumerico="6"
+            rotuloAlfaNumerico="6"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="6"
+            codigoNumerico="6"/>
+
+    <tecla
+            codigo="55"
+            rotuloNumerico="7"
+            rotuloAlfaNumerico="7"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="7"
+            codigoNumerico="7"/>
+
+    <tecla
+            codigo="56"
+            rotuloNumerico="8"
+            rotuloAlfaNumerico="8"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="8"
+            codigoNumerico="8"/>
+
+    <tecla
+            codigo="57"
+            rotuloNumerico="9"
+            rotuloAlfaNumerico="9"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="9"
+            codigoNumerico="9"/>
+
+    <tecla
+            codigo="58"
+            rotuloNumerico=":"
+            rotuloAlfaNumerico=":"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico=":"
+            codigoNumerico=":"/>
+
+    <tecla
+            codigo="59"
+            rotuloNumerico=";"
+            rotuloAlfaNumerico=";"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico=";"
+            codigoNumerico=";"/>
+
+    <tecla
+            codigo="60"
+            rotuloNumerico="&lt;"
+            rotuloAlfaNumerico="&lt;"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="&lt;"
+            codigoNumerico="&lt;"/>
+
+    <tecla
+            codigo="61"
+            rotuloNumerico="="
+            rotuloAlfaNumerico="="
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="="
+            codigoNumerico="="/>
+
+    <tecla
+            codigo="62"
+            rotuloNumerico="&gt;"
+            rotuloAlfaNumerico="&gt;"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="&gt;"
+            codigoNumerico="&gt;"/>
+
+    <tecla
+            codigo="63"
+            rotuloNumerico="?"
+            rotuloAlfaNumerico="?"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="?"
+            codigoNumerico="?"/>
+
+    <tecla
+            codigo="64"
+            rotuloNumerico="@"
+            rotuloAlfaNumerico="@"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="@"
+            codigoNumerico="@"/>
+
+    <tecla
+            codigo="65"
+            rotuloNumerico="A"
+            rotuloAlfaNumerico="A"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="A"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="66"
+            rotuloNumerico="B"
+            rotuloAlfaNumerico="B"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="B"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="67"
+            rotuloNumerico="C"
+            rotuloAlfaNumerico="C"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="C"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="68"
+            rotuloNumerico="D"
+            rotuloAlfaNumerico="D"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="D"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="69"
+            rotuloNumerico="E"
+            rotuloAlfaNumerico="E"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="E"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="70"
+            rotuloNumerico="F"
+            rotuloAlfaNumerico="F"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="F"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="71"
+            rotuloNumerico="G"
+            rotuloAlfaNumerico="G"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="G"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="72"
+            rotuloNumerico="H"
+            rotuloAlfaNumerico="H"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="H"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="73"
+            rotuloNumerico="I"
+            rotuloAlfaNumerico="I"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="I"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="74"
+            rotuloNumerico="J"
+            rotuloAlfaNumerico="J"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="J"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="75"
+            rotuloNumerico="K"
+            rotuloAlfaNumerico="K"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="K"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="76"
+            rotuloNumerico="L"
+            rotuloAlfaNumerico="L"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="L"
+            codigoNumerico=""/>
+    <tecla
+            codigo="272"
+            rotuloNumerico="L"
+            rotuloAlfaNumerico="L"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="L"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="77"
+            rotuloNumerico="M"
+            rotuloAlfaNumerico="M"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="M"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="78"
+            rotuloNumerico="N"
+            rotuloAlfaNumerico="N"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="N"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="79"
+            rotuloNumerico="O"
+            rotuloAlfaNumerico="O"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="O"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="80"
+            rotuloNumerico="P"
+            rotuloAlfaNumerico="P"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="P"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="81"
+            rotuloNumerico="Q"
+            rotuloAlfaNumerico="Q"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="Q"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="82"
+            rotuloNumerico="R"
+            rotuloAlfaNumerico="R"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="R"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="83"
+            rotuloNumerico="S"
+            rotuloAlfaNumerico="S"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="S"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="84"
+            rotuloNumerico="T"
+            rotuloAlfaNumerico="T"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="T"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="85"
+            rotuloNumerico="U"
+            rotuloAlfaNumerico="U"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="U"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="86"
+            rotuloNumerico="V"
+            rotuloAlfaNumerico="V"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="V"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="87"
+            rotuloNumerico="W"
+            rotuloAlfaNumerico="W"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="W"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="88"
+            rotuloNumerico="X"
+            rotuloAlfaNumerico="X"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="X"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="89"
+            rotuloNumerico="Y"
+            rotuloAlfaNumerico="Y"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="Y"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="90"
+            rotuloNumerico="Z"
+            rotuloAlfaNumerico="Z"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="Z"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="91"
+            rotuloNumerico="["
+            rotuloAlfaNumerico="["
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="["
+            codigoNumerico="["/>
+
+    <tecla
+            codigo="92"
+            rotuloNumerico="\"
+            rotuloAlfaNumerico="\"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="\"
+            codigoNumerico="\"/>
+
+    <tecla
+            codigo="93"
+            rotuloNumerico="]"
+            rotuloAlfaNumerico="]"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="]"
+            codigoNumerico="]"/>
+
+    <tecla
+            codigo="95"
+            rotuloNumerico="_"
+            rotuloAlfaNumerico="_"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="_"
+            codigoNumerico="_"/>
+
+    <tecla
+            codigo="123"
+            rotuloNumerico="{"
+            rotuloAlfaNumerico="{"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="{"
+            codigoNumerico="{"/>
+
+    <tecla
+            codigo="124"
+            rotuloNumerico="|"
+            rotuloAlfaNumerico="|"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="|"
+            codigoNumerico="|"/>
+
+    <tecla
+            codigo="125"
+            rotuloNumerico="}"
+            rotuloAlfaNumerico="}"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="}"
+            codigoNumerico="}"/>
+
+    <tecla
+            codigo="97"
+            rotuloNumerico="a"
+            rotuloAlfaNumerico="a"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="a"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="98"
+            rotuloNumerico="b"
+            rotuloAlfaNumerico="b"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="b"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="99"
+            rotuloNumerico="c"
+            rotuloAlfaNumerico="c"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="c"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="100"
+            rotuloNumerico="d"
+            rotuloAlfaNumerico="d"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="d"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="101"
+            rotuloNumerico="e"
+            rotuloAlfaNumerico="e"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="e"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="102"
+            rotuloNumerico="f"
+            rotuloAlfaNumerico="f"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="f"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="103"
+            rotuloNumerico="g"
+            rotuloAlfaNumerico="g"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="g"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="104"
+            rotuloNumerico="h"
+            rotuloAlfaNumerico="h"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="h"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="105"
+            rotuloNumerico="i"
+            rotuloAlfaNumerico="i"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="i"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="106"
+            rotuloNumerico="j"
+            rotuloAlfaNumerico="j"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="j"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="107"
+            rotuloNumerico="k"
+            rotuloAlfaNumerico="k"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="k"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="108"
+            rotuloNumerico="l"
+            rotuloAlfaNumerico="l"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="l"
+            codigoNumerico=""/>
+
+
+
+    <tecla
+            codigo="109"
+            rotuloNumerico="m"
+            rotuloAlfaNumerico="m"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="m"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="110"
+            rotuloNumerico="n"
+            rotuloAlfaNumerico="n"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="n"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="111"
+            rotuloNumerico="o"
+            rotuloAlfaNumerico="o"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="o"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="112"
+            rotuloNumerico="p"
+            rotuloAlfaNumerico="p"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="p"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="113"
+            rotuloNumerico="q"
+            rotuloAlfaNumerico="q"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="q"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="114"
+            rotuloNumerico="r"
+            rotuloAlfaNumerico="r"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="r"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="115"
+            rotuloNumerico="s"
+            rotuloAlfaNumerico="s"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="s"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="116"
+            rotuloNumerico="t"
+            rotuloAlfaNumerico="t"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="t"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="117"
+            rotuloNumerico="u"
+            rotuloAlfaNumerico="u"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="u"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="118"
+            rotuloNumerico="v"
+            rotuloAlfaNumerico="v"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="v"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="119"
+            rotuloNumerico="w"
+            rotuloAlfaNumerico="w"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="w"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="120"
+            rotuloNumerico="x"
+            rotuloAlfaNumerico="x"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="x"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="121"
+            rotuloNumerico="y"
+            rotuloAlfaNumerico="y"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="y"
+            codigoNumerico=""/>
+
+    <tecla
+            codigo="122"
+            rotuloNumerico="z"
+            rotuloAlfaNumerico="z"
+            finalizadorNumerico="false"
+            finalizadorAlfaNumerico="false"
+            codigoAlfaNumerico="z"
+            codigoNumerico=""/>
+
+</mapaTeclado>

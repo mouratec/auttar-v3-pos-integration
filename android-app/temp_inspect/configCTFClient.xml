@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration_file>
+    <ParameterSet name="configCTFClient">
+        <ParameterSet name="creditodigital">
+            <Parameter name="capturaTelefoneDoisDisplay">false</Parameter>
+            <Parameter name="confirmaDddTelefone">true</Parameter>
+            <Parameter name="versaolayout">3</Parameter>
+            <Parameter name="capturaTelefonePinpad">true</Parameter>
+        </ParameterSet>
+        <ParameterSet name="fusion">
+            <Parameter name="ip"></Parameter>
+            <Parameter name="porta">2501</Parameter>
+        </ParameterSet>
+        <ParameterSet name="ips">
+            <ParameterSet name="ip">
+                <Parameter name="host"></Parameter>
+                <Parameter name="port"></Parameter>
+                <Parameter name="protocolo"></Parameter>
+            </ParameterSet>
+        </ParameterSet>
+        <ParameterSet name="multiec">
+            <Parameter name="codigoGrupo">0</Parameter>
+            <Parameter name="habilitado">false</Parameter>
+        </ParameterSet>
+        <ParameterSet name="perifericos">
+            <ParameterSet name="CONFIG_PINPAD">
+                <Parameter name="msgAguardo">PROCESSANDO...</Parameter>
+                <Parameter name="msgCartao">PASSE O CARTAO</Parameter>
+                <Parameter name="msgPrompt">Auttar</Parameter>
+                <Parameter name="msgSenha">DIGITE A SENHA</Parameter>
+                <Parameter name="portaSerial">COM1</Parameter>
+                <Parameter name="tentativasConexao">3</Parameter>
+            </ParameterSet>
+            <ParameterSet name="DRIVER_DISPLAY_CLIENTE">
+                <Parameter name="params">40,35</Parameter>
+                <Parameter name="tipo">DISPLAY_CTFCLIENT</Parameter>
+            </ParameterSet>
+            <ParameterSet name="DRIVER_DISPLAY_OPERADOR">
+                <Parameter name="params"></Parameter>
+                <Parameter name="tipo"></Parameter>
+            </ParameterSet>
+            <ParameterSet name="DRIVER_LEITOR_DOCUMENTO">
+                <Parameter name="params">66,10</Parameter>
+                <Parameter name="tipo">LEITOR_DOCUMENTO_TECPOINTTL840</Parameter>
+            </ParameterSet>
+            <ParameterSet name="DRIVER_SCANNER">
+                <Parameter name="params">COM2,9600,8,N,1</Parameter>
+                <Parameter name="tipo">SCANNER_SERIAL</Parameter>
+            </ParameterSet>
+            <ParameterSet name="DRIVER_TECLADO">
+                <Parameter name="params"></Parameter>
+                <Parameter name="tipo">TECLADO_PC</Parameter>
+            </ParameterSet>
+        </ParameterSet>
+        <ParameterSet name="timeout">
+            <Parameter name="confirmacaoMultiTerminal">120</Parameter>
+            <Parameter name="intertef">15</Parameter>
+        </ParameterSet>
+        <ParameterSet name="timeoutPin">
+            <Parameter name="blocking">0</Parameter>
+            <Parameter name="default">0</Parameter>
+            <Parameter name="noblocking">0</Parameter>
+            <Parameter name="standard">0</Parameter>
+        </ParameterSet>
+        <ParameterSet name="traceApiwebctf">
+            <Parameter name="habilitado">false</Parameter>
+            <Parameter name="qtdDias">0</Parameter>
+        </ParameterSet>
+        <ParameterSet name="web">
+            <Parameter name="controleTerminais">false</Parameter>
+            <Parameter name="filaTerminais">0:0</Parameter>
+            <Parameter name="multitransacao">true</Parameter>
+        </ParameterSet>
+        <Parameter name="capturaApenasLinhaDigitavel">false</Parameter>
+        <Parameter name="capturacmc7">false</Parameter>
+        <Parameter name="cnpj"></Parameter>
+        <Parameter name="confirmardesfazimento">false</Parameter>
+        <Parameter name="estabelecimento"></Parameter>
+        <Parameter name="handler">com.csi.ctfclient.integracao.SocketHandler</Parameter>
+        <Parameter name="hostclient">127.0.0.1</Parameter>
+        <Parameter name="integracaoCriptografada">false</Parameter>
+        <Parameter name="loja"></Parameter>
+        <Parameter name="numeroSite">1</Parameter>
+        <Parameter name="permitePagarSaldoVoucher">false</Parameter>
+        <Parameter name="pingUDP">false</Parameter>
+        <Parameter name="portclient">2500</Parameter>
+        <Parameter name="quantidadeVias">2</Parameter>
+        <Parameter name="rotearPrivateLabel">false</Parameter>
+        <Parameter name="standalone">true</Parameter>
+        <Parameter name="suporteHttps">false</Parameter>
+        <Parameter name="terminal"></Parameter>
+        <Parameter name="tipointegracao">dll</Parameter>
+        <Parameter name="versaoAC"></Parameter>
+        <Parameter name="habilitaAtualizador">false</Parameter>
+        <ParameterSet name="postef">
+            <Parameter name="habilitado">false</Parameter>
+            <Parameter name="posMovel"></Parameter>
+            <Parameter name="porta"></Parameter>
+        </ParameterSet>
+        <ParameterSet name="clienteServico">
+            <Parameter name="habilitado">false</Parameter>
+            <Parameter name="codigoPdv"></Parameter>
+        </ParameterSet>
+        <Parameter name="envioCupomIntegracao">false</Parameter>
+        <Parameter name="desabilitaDigitacao">false</Parameter>
+        <Parameter name="habilitaThreadCatcher">false</Parameter>
+    </ParameterSet>
+</configuration_file>
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.github.kenglxn.QRGen</groupId>
+    <artifactId>qrgen-parent</artifactId>
+    <version>3.0.1</version>
+  </parent>
+  <groupId>com.github.kenglxn.QRGen</groupId>
+  <artifactId>android</artifactId>
+  <version>3.0.1</version>
+  <name>QRGen-android</name>
+  <description>a simple QRCode generation api for java built on top ZXING</description>
+  <url>http://glxn.net/2012/03/10/qrgen-a-small-wrapper-on-top-of-zxing-for-generating-qrcodes-in-java</url>
+  <inceptionYear>2012</inceptionYear>
+  <developers>
+    <developer>
+      <id>kenglxn</id>
+      <name>Ken Gullaksen</name>
+      <email>ken@glxn.net</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git://github.com/kenglxn/QRGen.git</connection>
+    <developerConnection>scm:git://github.com/kenglxn/QRGen.git</developerConnection>
+    <url>git://github.com/kenglxn/QRGen.git</url>
+  </scm>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>com.github.kenglxn.QRGen</groupId>
+      <artifactId>core</artifactId>
+      <version>3.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android</groupId>
+      <artifactId>android</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+  </dependencies>
+</project>

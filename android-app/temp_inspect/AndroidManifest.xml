@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.com.auttar.sdk" >
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        tools:overrideLibrary="br.com.auttar.bc.top, com.hlkernel, br.com.auttar.nfcReadLib" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="br.com.auttar.SEND_BROADCAST_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <application
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="false"
+        android:requestLegacyExternalStorage="true"
+        android:resizeableActivity="false"
+        tools:replace="android:allowBackup"
+        tools:targetApi="s" >
+        <provider
+            android:name="br.com.auttar.bc.provider.ConfigurationProvider"
+            android:authorities="${applicationId}.sdk.provider"
+            android:exported="false" />
+        <provider
+            android:name="br.com.auttar.sdk.provider.AuttarSdkProvider"
+            android:authorities="${applicationId}.AuttarSdkProvider"
+            android:exported="false" />
+        <provider
+            android:name="br.com.auttar.sdk.common.provider.SdkCommonContentProvider"
+            android:authorities="${applicationId}.SdkCommonContentProvider"
+            android:exported="false" />
+        <provider
+            android:name="br.com.auttar.sdk.database.provider.RoomContentProvider"
+            android:authorities="${applicationId}.RoomContentProvider"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,93 @@
+-dontwarn auttar.sdk.**
+-dontwarn br.com.auttar.**
+-dontwarn br.com.execucao.**
+-dontwarn com.csi.ctfclient.**
+-dontwarn com.hlkernel.**
+-dontwarn com.android.apksig.**
+
+-keepresourcefiles lib/**/libsqlcipher.so
+
+-keepresourcexmlelements "manifest/application/provider/meta-data@name=androidx.work.WorkManagerInitializer"
+-keepresourcexmlelements "manifest/application/provider/meta-data@name=androidx.emoji2.text.EmojiCompatInitializer"
+-keepresourcexmlelements "manifest/application/provider/meta-data@name=androidx.lifecycle.ProcessLifecycleInitializer"
+-keepresourcexmlelements "manifest/application/provider/meta-data@name=androidx.profileinstaller.ProfileInstallerInitializer"
+-keepresourcexmlelements "manifest/application/meta-data@name=com.google.android.gms.version"
+
+-keepresourcefiles res/layout*/activity_card_reader.xml
+-keepresourcefiles res/layout*/secure_keyboard.xml
+-keepresourcefiles res/layout*/top_3ia_pin_capture_activity.xml
+-keepresourcefiles res/layout*/top_3ia_read_card_activity.xml
+-keepresourcefiles res/layout*/top_read_card_activity.xml
+-keepresourcefiles res/raw*/auttar_top_error.mp3
+-keepresourcefiles res/raw*/auttar_top_success.mp3
+-keepresourcefiles res/raw*/keep.xml
+-keepresourcefiles res/values*/values.xml
+-keepresourcefiles res/xml*/data_extraction_rules.xml
+
+-keeppackagenames auttar.sdk.**,br.com.auttar.**,br.com.execucao.**,com.csi.ctfclient.**,com.hlkernel.**,org.bouncycastle.**,com.android.apksig.**
+-keep class **.R
+-keep class **.R$* {*;}
+-keepclassmembers !abstract class * {
+    public <init>(android.content.Context,android.util.AttributeSet);
+    public <init>(android.content.Context,android.util.AttributeSet,int);
+}
+-keepclassmembers class * implements android.os.Parcelable {
+    static ** CREATOR;
+}
+-keepclassmembers class * extends androidx.work.CoroutineWorker {*;}
+
+-keep class okhttp3.** { *; }
+-keep interface okhttp3.** { *; }
+-keep enum * { *; }
+-keep class embedded.koin.** {*;}
+-keep class kotlin.** {*;}
+-keep class kotlinx.** {*;}
+-keep class androidx.** {*;}
+-keep class android.** {*;}
+-keep class com.google.** {*;}
+-keep class org.bouncycastle.** { *; }
+-keep class * extends androidx.room.RoomDatabase
+-keep,includecode class * extends android.content.ContentProvider { *; }
+-keep,includecode class com.android.apksig.** { *; }
+-keep,includecode class auttar.sdk.** { *; }
+-keep,includecode class br.com.auttar.** { *; }
+-keepnames class com.csi.ctfclient.apitef.Response
+-keepnames class com.csi.ctfclient.apitef.Request
+-keepnames class com.csi.ctfclient.apitef.ApitefJNI
+-keep,includecode class com.csi.ctfclient.** { *; }
+-keep,includecode class com.hlkernel.** { *; }
+-keep,includecode class br.com.execucao.** { *; }
+-keepattributes Signature,*Annotation*,InnerClasses,EnclosingMethod,SourceFile,LineNumberTable
+-keep class com.csi.ctfclient.** {
+  native <methods>;
+  private native <methods>;
+  public <init>(...);
+  long mNativeHandle;
+}
+-keepclasseswithmembernames,includedescriptorclasses class * {
+    native <methods>;
+}
+-keepclassmembernames class * {
+    native <methods>;
+}
+#------Sqlcipher-Android------#
+-keep class net.zetetic.** {
+  native <methods>;
+  private native <methods>;
+  public <init>(...);
+  long mNativeHandle;
+}
+
+-keepclassmembers class net.zetetic.database.sqlcipher.SQLiteCustomFunction {
+  public java.lang.String name;
+  public int numArgs;
+  private void dispatchCallback(java.lang.String[]);
+}
+
+-keepclassmembers class net.zetetic.database.sqlcipher.SQLiteDebug$PagerStats {
+  public int largestMemAlloc;
+  public int memoryUsed;
+  public int pageCacheOverflow;
+}
+#------Sqlcipher-Android------#
+

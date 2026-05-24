@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.auttar.android</groupId>
+  <artifactId>apiwebctf-jni-release</artifactId>
+  <version>1.2.11</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.vvb2060.ndk</groupId>
+      <artifactId>curl</artifactId>
+      <version>8.12.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.github.vvb2060.ndk</groupId>
+      <artifactId>boringssl</artifactId>
+      <version>20250114</version>
+    </dependency>
+  </dependencies>
+</project>

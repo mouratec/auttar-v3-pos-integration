@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.ingenico.lar.bc</groupId>
+  <artifactId>usdk-api-aidl-extension</artifactId>
+  <versioning>
+    <latest>v2.2.2TA.20220520</latest>
+    <release>v2.2.2TA.20220520</release>
+    <versions>
+      <version>v2.2.2TA.20220520</version>
+    </versions>
+    <lastUpdated>20250902173233</lastUpdated>
+  </versioning>
+  <version>v2.2.2TA.20220520</version>
+</metadata>

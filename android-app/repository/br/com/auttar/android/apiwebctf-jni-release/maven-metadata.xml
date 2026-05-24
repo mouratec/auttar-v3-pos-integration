@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>br.com.auttar.android</groupId>
+  <artifactId>apiwebctf-jni-release</artifactId>
+  <versioning>
+    <latest>1.2.11</latest>
+    <release>1.2.11</release>
+    <versions>
+      <version>1.2.11-rc01</version>
+      <version>1.2.11</version>
+      <version>1.2.11-16kb</version>
+    </versions>
+    <lastUpdated>20251020140621</lastUpdated>
+  </versioning>
+</metadata>

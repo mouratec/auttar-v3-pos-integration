@@ -1,0 +1,1014 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.insert-koin",
+    "module": "embedded-koin-core",
+    "version": "4.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-concurrency",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-concurrent-collections",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "embedded-koin-core-metadata-4.0.4.jar",
+          "url": "embedded-koin-core-4.0.4.jar",
+          "size": 54234,
+          "sha512": "a20b232a0d29cf3e63b4fe601242b7c8eb177836584489f3b2e198218300a88ff0ca3db14a88b0a22b08f894bcdb20314c4def92fa66cbb51cc13067abdcdd18",
+          "sha256": "6823226528e210653b55b0b663a46eec2c1a78af2488e93333b53d2361d4c99b",
+          "sha1": "1eef7f9fc37d75408a7a78ececa48ec8e39dd027",
+          "md5": "2094c780b5a81fc8c298fd8899b841f1"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "embedded-koin-core-kotlin-4.0.4-sources.jar",
+          "url": "embedded-koin-core-4.0.4-sources.jar",
+          "size": 69994,
+          "sha512": "074310957ea391194fc049bd34684f588b81acf452540406412182632d217d8a529510b4deb68e69ccb899394952c0b01438cd4695c260caf3db9fbda5965287",
+          "sha256": "27d73a7f390f7530468099cd40faa378967465b5878028eb5023114179fca8ee",
+          "sha1": "f41cec56e7970358fd0e95cb0587f8fa13b74010",
+          "md5": "c6bd1565753141f54b0bfff3535d6b97"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-iosarm64/4.0.4/embedded-koin-core-iosarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-iosarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-iosarm64/4.0.4/embedded-koin-core-iosarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-iosarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-iosarm64/4.0.4/embedded-koin-core-iosarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-iosarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-iossimulatorarm64/4.0.4/embedded-koin-core-iossimulatorarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-iossimulatorarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-iossimulatorarm64/4.0.4/embedded-koin-core-iossimulatorarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-iossimulatorarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-iossimulatorarm64/4.0.4/embedded-koin-core-iossimulatorarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-iossimulatorarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-iosx64/4.0.4/embedded-koin-core-iosx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-iosx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-iosx64/4.0.4/embedded-koin-core-iosx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-iosx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-iosx64/4.0.4/embedded-koin-core-iosx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-iosx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-js/4.0.4/embedded-koin-core-js-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-js",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-js/4.0.4/embedded-koin-core-js-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-js",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-js/4.0.4/embedded-koin-core-js-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-js",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-jvm/4.0.4/embedded-koin-core-jvm-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-jvm",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-jvm/4.0.4/embedded-koin-core-jvm-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-jvm",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-jvm/4.0.4/embedded-koin-core-jvm-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-jvm",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-linuxarm64/4.0.4/embedded-koin-core-linuxarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-linuxarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-linuxarm64/4.0.4/embedded-koin-core-linuxarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-linuxarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-linuxx64/4.0.4/embedded-koin-core-linuxx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-linuxx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-linuxx64/4.0.4/embedded-koin-core-linuxx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-linuxx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-macosarm64/4.0.4/embedded-koin-core-macosarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-macosarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-macosarm64/4.0.4/embedded-koin-core-macosarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-macosarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-macosarm64/4.0.4/embedded-koin-core-macosarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-macosarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-macosx64/4.0.4/embedded-koin-core-macosx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-macosx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-macosx64/4.0.4/embedded-koin-core-macosx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-macosx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-macosx64/4.0.4/embedded-koin-core-macosx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-macosx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-mingwx64/4.0.4/embedded-koin-core-mingwx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-mingwx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-mingwx64/4.0.4/embedded-koin-core-mingwx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-mingwx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-tvosarm64/4.0.4/embedded-koin-core-tvosarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-tvosarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-tvosarm64/4.0.4/embedded-koin-core-tvosarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-tvosarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-tvosarm64/4.0.4/embedded-koin-core-tvosarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-tvosarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-tvossimulatorarm64/4.0.4/embedded-koin-core-tvossimulatorarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-tvossimulatorarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-tvossimulatorarm64/4.0.4/embedded-koin-core-tvossimulatorarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-tvossimulatorarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-tvossimulatorarm64/4.0.4/embedded-koin-core-tvossimulatorarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-tvossimulatorarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-tvosx64/4.0.4/embedded-koin-core-tvosx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-tvosx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-tvosx64/4.0.4/embedded-koin-core-tvosx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-tvosx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-tvosx64/4.0.4/embedded-koin-core-tvosx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-tvosx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-wasm-js/4.0.4/embedded-koin-core-wasm-js-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-wasm-js",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-wasm-js/4.0.4/embedded-koin-core-wasm-js-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-wasm-js",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-wasm-js/4.0.4/embedded-koin-core-wasm-js-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-wasm-js",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchosarm32/4.0.4/embedded-koin-core-watchosarm32-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchosarm32",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchosarm32/4.0.4/embedded-koin-core-watchosarm32-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchosarm32",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchosarm32/4.0.4/embedded-koin-core-watchosarm32-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchosarm32",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchosarm64/4.0.4/embedded-koin-core-watchosarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchosarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchosarm64/4.0.4/embedded-koin-core-watchosarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchosarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchosarm64/4.0.4/embedded-koin-core-watchosarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchosarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchosdevicearm64/4.0.4/embedded-koin-core-watchosdevicearm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchosdevicearm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchosdevicearm64/4.0.4/embedded-koin-core-watchosdevicearm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchosdevicearm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchosdevicearm64/4.0.4/embedded-koin-core-watchosdevicearm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchosdevicearm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchossimulatorarm64/4.0.4/embedded-koin-core-watchossimulatorarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchossimulatorarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchossimulatorarm64/4.0.4/embedded-koin-core-watchossimulatorarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchossimulatorarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchossimulatorarm64/4.0.4/embedded-koin-core-watchossimulatorarm64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchossimulatorarm64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchosx64/4.0.4/embedded-koin-core-watchosx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchosx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchosx64/4.0.4/embedded-koin-core-watchosx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchosx64",
+        "version": "4.0.4"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../embedded-koin-core-watchosx64/4.0.4/embedded-koin-core-watchosx64-4.0.4.module",
+        "group": "io.insert-koin",
+        "module": "embedded-koin-core-watchosx64",
+        "version": "4.0.4"
+      }
+    }
+  ]
+}

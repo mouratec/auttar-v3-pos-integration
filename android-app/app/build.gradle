@@ -1,0 +1,70 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'br.com.auttar.integration'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "br.com.auttar.integration"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        // Passo do Guia: Requisito de Desugaring
+        coreLibraryDesugaringEnabled true
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+// Estratégia de resolução para dependências locais ausentes ou com versões divergentes
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        // O SDK 4.14.1 solicita o bcnewland 4.14.1, mas no repositório local só existe a 2.24
+        if (details.requested.group == 'br.com.getnet.fornecedores.newland.avatek.bc' && 
+            details.requested.name == 'bcnewland') {
+            details.useVersion '2.24'
+        }
+    }
+}
+
+dependencies {
+    implementation('androidx.core:core-ktx:1.10.1')
+    implementation('androidx.appcompat:appcompat:1.6.1')
+    implementation('com.google.android.material:material:1.9.0')
+    implementation('androidx.constraintlayout:constraintlayout:2.1.4')
+    
+    // Passo do Guia: Dependências Auttar SDK V3
+    implementation("br.com.auttar.mobile:payment-sdk-debug:4.14.1")
+    implementation("br.com.auttar.mobile:payment-sdk-bc-pos-debug:4.14.1")
+    
+    // Requisito de Desugaring
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs_nio:2.1.5")
+    
+    // Coroutines para observar o TransactionFlow
+    //implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    
+    // Lifecycle para lifecycleScope e repeatOnLifecycle
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+}

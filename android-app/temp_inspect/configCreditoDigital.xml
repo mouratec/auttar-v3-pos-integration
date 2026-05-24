@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration_file>
+    <ParameterSet name="configCreditoDigital">
+        <ParameterSet name="operadoras">
+            <ParameterSet name="operadora">
+                <Parameter name="codigo">70</Parameter>
+                <Parameter name="nome">TESTE</Parameter>
+                <Parameter name="digito">0</Parameter>
+            </ParameterSet>
+            <ParameterSet name="operadora">
+                <Parameter name="codigo">03</Parameter>
+                <Parameter name="nome">VIVO</Parameter>
+                <Parameter name="digito">0</Parameter>
+            </ParameterSet>
+            <ParameterSet name="operadora">
+                <Parameter name="codigo">14</Parameter>
+                <Parameter name="nome">NEXTEL</Parameter>
+                <Parameter name="digito">0</Parameter>
+            </ParameterSet>
+            <ParameterSet name="operadora">
+                <Parameter name="codigo">37</Parameter>
+                <Parameter name="nome">CLARO</Parameter>
+                <Parameter name="digito">0</Parameter>
+            </ParameterSet>
+            <ParameterSet name="operadora">
+                <Parameter name="codigo">38</Parameter>
+                <Parameter name="nome">TIM</Parameter>
+                <Parameter name="digito">0</Parameter>
+            </ParameterSet>
+            <ParameterSet name="operadora">
+                <Parameter name="codigo">01</Parameter>
+                <Parameter name="nome">BRASIL TELECOM</Parameter>
+                <Parameter name="digito">0</Parameter>
+            </ParameterSet>
+            <ParameterSet name="operadora">
+                <Parameter name="codigo">19</Parameter>
+                <Parameter name="nome">TELEFONICA</Parameter>
+                <Parameter name="digito">0</Parameter>
+            </ParameterSet>
+            <ParameterSet name="operadora">
+                <Parameter name="codigo">55</Parameter>
+                <Parameter name="nome">OI</Parameter>
+                <Parameter name="digito">0</Parameter>
+            </ParameterSet>
+            <ParameterSet name="operadora">
+                <Parameter name="codigo">KG</Parameter>
+                <Parameter name="nome">PORTO CONECTA</Parameter>
+                <Parameter name="digito">0</Parameter>
+            </ParameterSet>
+        </ParameterSet>
+    </ParameterSet>
+</configuration_file>
